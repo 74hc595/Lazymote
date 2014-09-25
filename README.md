@@ -115,7 +115,7 @@ Most of these parts just came from whatever I had lying around:
 - **Misc. wire and protoboard**
     - When building prototypes, I like to keep the top of the board clean by
       making all the connections on the underside using [enameled magnet
-wire](x). However, I knew that I'd be putting adhesives on the underside, and
+wire](https://www.flickr.com/photos/74hc595/11042466593/). However, I knew that I'd be putting adhesives on the underside, and
       didn't want any wires getting snagged. So I did all the wiring on the top
       surface using regular insulated wire.
 
@@ -124,6 +124,9 @@ Schematic
 ---------
 
 A [gEDA](http://www.geda-project.org) schematic is included.
+
+![Schematic](/remote_schematic.png?raw=true)
+
 
 Uploading firmware
 ------------------
