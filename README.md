@@ -4,6 +4,11 @@ Lazymote
 This is a TV control panel that I stuck on my coffee table, since I'm too lazy
 to find the remote.
 
+[![](https://farm3.staticflickr.com/2944/15161890680_eb1b6f505d_z.jpg)](https://flic.kr/p/p6NDSh)
+[![](https://farm3.staticflickr.com/2944/15348283912_a5f5eddfa5_z.jpg)](https://flic.kr/p/pogY5G)
+
+More photos are on [Flickr](https://www.flickr.com/photos/74hc595/sets/72157647592732929/).
+
 From left to right, the functions assigned to the buttons are:
 
 - Input select (black)
@@ -37,6 +42,8 @@ and off in pulses, a binary signal is encoded. The Lazymote was designed to
 control a Sony KDL-52W4100 TV, so it speaks the 
 [SIRC](http://www.sbprojects.com/knowledge/ir/sirc.php) protocol.
 
+[![](https://farm4.staticflickr.com/3887/15348284592_202859df68_z.jpg)](https://flic.kr/p/pogYhq)
+
 Each command begins with a 2400 microsecond burst of the carrier wave, followed
 by a 600 microsecond space where the LED is turned off. Then, either 12, 15, or
 20 data bits are sent. A "1" bit consists of a 1200 microsecond burst of the
@@ -62,6 +69,8 @@ microcontroller is in "idle" sleep, with all peripherals except Timer0 and
 Timer1 disabled. (Timer0 generates the 40kHz square wave.) When simply waiting
 (e.g. for switch debouncing), the microprocessor is in idle sleep with Timer0
 disabled as well, and draws approx. 375 µA.
+
+[![](https://farm4.staticflickr.com/3900/15161891560_843d2d2118_z.jpg)](https://flic.kr/p/p6NE8s)
 
 
 Software
@@ -142,4 +151,4 @@ If you're not using an AVRISP mkII, change the `AVRDUDE = ...` line in the Makef
 appropriately. Then, `make program` will burn the fuses and upload the
 firmware!
 
-
+[![](https://farm3.staticflickr.com/2942/15348590335_b32562db1b_z.jpg)](https://flic.kr/p/poixaR)
